@@ -1,0 +1,18 @@
+{
+  "test_suit_1": [
+    {
+      "path": "test_cases.sample_test",
+      "args": ["--test_config_root", "C:\\Path\\To\\Config", "--target_app", "SampleApp", "--option1", "value1"]
+    },
+    {
+      "path": "test_cases.sample_test_long",
+      "args": ["--test_config_root", "C:\\Path\\To\\Config", "--target_app", "SampleApp", "--option1", "value1", "--duration", "600"]
+    }
+  ],
+  "test_suit_2": [
+    {
+      "path": "test_cases.sample_test_2",
+      "args": ["--test_config_root", "C:\\Path\\To\\Config", "--target_app", "SampleApp2", "--mode", "quick"]
+    }
+  ]
+}
